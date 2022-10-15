@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------
+# 				OnlinePlayers plugin
+#					By: Indian Bartonka
+#				Support: https://discord.gg/aq6NaXsy2k
+#               § for colors
+#-------------------------------------------------------------------------
+#Permision name
+OnPl: "OnPl.admin"
+#Messages
+admin-perms: "§4You don't have permisions"
+player-not-be: "§4YYou must be a player"
+player-null: "§4YThis player don't exist"
+shelf-command: "§4Shelf use not allowed"
+feature-off: "§4This feature is off "
+#Player head options
+head-name-prefix: "%vault_prefix% §4 "
+head-name-sufix: " %floodgate_device% "
+#Under player head description (PlaceHolderAPI supported)
+description:
+    - "§bPing:§6 %player_ping%"
+    - "§bGame time: §a%statistic_minutes_played%"
+    - "§bGamemode: §a%player_gamemode%"
+    - "§bMinecraft version: §a%viaversion_player_protocol_version%"
+    - "§bRegion owner: §6%worldguard_region_owner%"
+    - "§bHealth: §c%player_health%/%player_max_health%❤"
+    - "§c%pvppoints_points%"
+    - ""
+    - ""
+    - "%discordsrv_user_name%"
+    - "§b*Right click to get Player head"
+    - "§b*Click to teleport*"
+    - "<tp>"
+#lores
+player-to-head: "§ayou §b-> §6player"
+head-to-player: "§6player §b-> §ayou"
+cmd-tp: "§aTeleport on"
+tp-cmd: "§aCommand on"
+#Config Placeholder
+ConfigPlaceholder: "Config placeholder :D"
+#Smal Gui Builder
+refresh-slot: 49
+#to prevent bagging when closing inventory, I use timed closing, define for yourself when to close and open inventory when you refresh it, in seconds
+refresh-time: 1
+refresh: "§bRefresh"
+
+TPswitch: "§eTp switch"
+tpswitchslot: 50
+
+#Command
+command: "say <player> example test"
+cmd-switch: "§eCommand & Tp switcher"
+cmdslot: 48
+
+barriera: true
+barriername: "§4Close "
+#the command you enter here is executed as you, for example online
+#Determine what is to happen when you click the barrier, do you want to execute? for example one that opens other gui?
+barriercommand: "closeinv"
+barrierslot: 53
+
+#Player list in free slot / non slot
+#Reguire PlayerList placeholder
+#papi ecloud download playerlist
+Playerlist: true
+# these items appear in front of the last player's head if you enable this option
+free&non-slots: true
+free-slots: "§eFree slot"
+non-slots: "§4No more slots"
+
+#in this option you can select the slots where the players' heads are located, if you choose the glass slot, it can break very badly
+# you can use slots which are not written in GRAY_STAINED_GLASS_PANE
+start-counting-players-from-the-slot: 10
+#select the slots where gray stained glass pane appears
+GRAY_STAINED_GLASS_PANE:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 51
+    - 52
+
+#Don't touch
+tp: "§6player §b-> §ayou"
+cmdl: "§aTeleport on"
+
+

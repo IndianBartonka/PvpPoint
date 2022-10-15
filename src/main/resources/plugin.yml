@@ -1,0 +1,15 @@
+name: OnlinePlayers
+version: '${project.version}'
+main: me.indian.pl.Main
+depend: [PlaceholderAPI]
+api-version: 1.19
+authors: [IndianPL]
+commands:
+  online:
+    description: OnlinePlayers in gui
+  opr:
+   description: reload command
+  t:
+    description:
+  closeinv:
+    description: close your inventory
