@@ -8,12 +8,12 @@
 #Start points
 start-points: 100
 #Points
-minus-points: 10
-plus-points: 10
+grab-points: 10
 #Messages
-non-points: "§cYou kill <kill>, but he has fewer points than can be taken from him"
+non-points: "§cYou kill <kill>, but he has 0 points"
 pkt-check-player: "§aPlayer §6<player> §ahas §b<pkt> §apoints"
 pkt-check: "§aYou have §b<pkt> §apoints"
+invaild-player: "&a<player> player dosent exisit"
 #LeaderBoard
 lb-size: 10
 header: "§8-------§6Tops§8------"

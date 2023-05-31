@@ -1,11 +1,10 @@
-package me.indian.pl.Utils;
+package me.indian.points.util;
 
 
+import java.io.File;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
-
-import java.io.File;
 
 public class ConfigUtil {
     private File file;

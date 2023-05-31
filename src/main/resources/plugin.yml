@@ -1,9 +1,9 @@
 name: PvpPoints
 version: '${project.version}'
-main: me.indian.pl.Main
+main: me.indian.points.PvpPoints
 api-version: 1.19
 authors: [ IndianPL ]
-softdepend: [PlaceholderAPI]
+softdepend: [ PlaceholderAPI ]
 commands:
   pvpr:
     description: reload command
