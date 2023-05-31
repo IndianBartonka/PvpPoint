@@ -66,7 +66,8 @@ public class PointsCommand implements CommandExecutor {
             for(String s : PointsUtil.getTop()){
                 sender.sendMessage(ColorUtil.replaceColorCode(s));
             }
-        } else if (args[0].equalsIgnoreCase("top") && args[1].equalsIgnoreCase("gui")) {
+        }
+        if (args[0].equalsIgnoreCase("top") && args[1].equalsIgnoreCase("gui")) {
             if(sender instanceof Player){
                 final Player player = (Player) sender;
                 Inventory inv = Bukkit.createInventory(null, 27, config.getString("gui-name"));
