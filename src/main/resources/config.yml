@@ -1,0 +1,34 @@
+#------------------------------------------------------------------------
+# 				PvpPoints plugin
+#					By: Indian Bartonka
+#				Support: https://discord.gg/aq6NaXsy2k
+#               § for colors
+#-------------------------------------------------------------------------
+#
+#Start points
+start-points: 100
+#Points
+minus-points: 10
+plus-points: 10
+#Messages
+non-points: "§cYou kill <kill>, but he has fewer points than can be taken from him"
+pkt-check-player: "§aPlayer §6<player> §ahas §b<pkt> §apoints"
+pkt-check: "§aYou have §b<pkt> §apoints"
+#LeaderBoard
+lb-size: 10
+header: "§8-------§6Tops§8------"
+gui-name: "Tops"
+sowrd-name: "§bTop points"
+Num-color: "§b"
+Player-color: "§6"
+Points-color: "§a"
+footer: "§8-----------------"
+
+
+
+
+
+
+
+
+
